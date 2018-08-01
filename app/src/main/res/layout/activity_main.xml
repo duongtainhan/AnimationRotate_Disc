@@ -9,8 +9,29 @@
     <ImageView
         android:layout_width="350dp"
         android:layout_height="350dp"
-        android:src="@drawable/ic_disc"
-        android:layout_centerInParent="true"
+        android:src="@drawable/ic_zingmp3"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
         android:id="@+id/imgDisc"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imgDisc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_play"
+        android:id="@+id/btnPlay"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imgDisc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_pause"
+        android:id="@+id/btnPause"
+        android:visibility="invisible"/>
+
+
 
 </RelativeLayout>
